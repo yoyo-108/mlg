@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Florr.IO Clone</title>
+  <style>
+    body { margin: 0; }
+    canvas { display: block; margin: auto; }
+  </style>
+</head>
+<body>
+  <!-- ✅ socket.io -->
+  <script src="/socket.io/socket.io.js"></script>
+  
+  <!-- 🛡️ 使用本地 Phaser（避免 CDN 超时） -->
+  <script src="phaser.min.js"></script>
+  
+  <script src="main.js"></script>
+  <div id="chatContainer" style="position: fixed; bottom: 40px; left: 10px; width: 300px; max-height: 200px; overflow-y: auto; background: rgba(0,0,0,0.7); color: white; padding: 10px; font-family: sans-serif; font-size: 14px; border-radius: 8px; z-index: 999;">
+  </div>
+  <input id="chatInput" type="text" placeholder="Type a message..." style="position: fixed; bottom: 10px; left: 10px; width: 300px; padding: 6px; border-radius: 5px; border: none; outline: none; z-index: 1000;">
+
+</body>
+</html>
