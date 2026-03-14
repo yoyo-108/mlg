@@ -1,4 +1,4 @@
-const BACKEND_URL = 'https://你的后端应用名.onrender.com'; // 例如：https://socketio-game-backend.onrender.com
+const BACKEND_URL = 'https://yoyogm.onrender.com'; // 例如：https://socketio-game-backend.onrender.com
 
 // 🔴 关键修改 2：配置 Socket.io 连接，指向 render.com 后端
 const socket = io(BACKEND_URL, { 
